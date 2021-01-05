@@ -1,0 +1,368 @@
+<div class="container">
+    <br>
+    <br>
+    <h1>About Myself</h1>
+    <br>
+    <br>
+
+    <p id="desc">Hello my name is Antonio Ardzanliev and i am 24 years old guy who is passonate about programming and
+        web developing sites and applications. I have finished an one year Academy for programming and now i continue to
+        upgrade my skills and knowledge on my own trough courses, and hope to enter a good company who offers internship
+        or junior (entry level) position, work with excellent teams on different kinds of projects: web sites,
+        applications and hopefully in the future on mobile apps or desctop applications. I am esspecially passonate
+        about .NET, C#,
+        MVC, and for front End: Angular</p>
+
+    <br>
+    <hr>
+    <br>
+    <button class="btn btn-outline-info" (click)="workButton()">Work Experience</button>
+
+    <button class="btn btn-outline-info" (click)="educationButton()">Education and Training</button>
+
+    <button class="btn btn-outline-info" (click)="languageButton()">Languages</button>
+    <button class="btn btn-outline-info" (click)="hobbieButton()">Hobbies</button>
+    <br>
+    <br>
+
+    <div class="container-fluid" *ngIf="printWork">
+        <br>
+        <h3 id="workTitle">Work Experience</h3>
+        <br>
+        <h6 id="work-text">At the moment i have no working experience in programming but hoping to enter a great company
+            and start as
+            internship or junior position</h6>
+        <br>
+        <hr>
+        <br>
+
+        <div class="row">
+            <br>
+
+            <div class="card border-info mb-3" style="max-width: 18rem;">
+                <div class="card-header bg-transparent border-info">Noel Dooel: Gevgelija, Macedonia</div>
+                <div class="card-body text-info">
+                    <h5 class="card-title">Industrial machinery mechanic</h5>
+
+                </div>
+                <div class="card-footer bg-transparent border-info"><i class="fa fa-calendar" aria-hidden="true"></i>
+                    02/05/2018 – 26/02/2019</div>
+            </div>
+            <br>
+            <br>
+
+            <div class="card border-info mb-3" style="max-width: 18rem;">
+                <div class="card-header bg-transparent border-info">Hotel Perla Beach: Burgas, Bulgaria</div>
+                <div class="card-body text-info">
+                    <h5 class="card-title">BarTender</h5>
+
+                </div>
+                <div class="card-footer bg-transparent border-info"><i class="fa fa-calendar" aria-hidden="true"></i>
+                    08/06/2019 - 10/08/2019</div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="main" class="container" *ngIf="printEducation">
+        <br>
+        <h3 id="educationTitle">Education</h3>
+        <br>
+        <h6>I have studied At <a href="https://www.sedc.mk/">Seavus Education and Development Center</a> a programming
+            Academy in the
+            department of Web Development</h6>
+        <br>
+        <p id="date"><i class="fa fa-calendar-o" aria-hidden="true"></i> Date: 15/10/2019 - 01/12/2019</p>
+        <br>
+        <br>
+        <hr>
+
+        <p id="subject" class="titles">Subjects:</p>
+
+        <p class="titles"><i class="fa fa-certificate" aria-hidden="true"></i> Certificates:</p>
+        <div class="container">
+
+            <div class="test">
+                <ol>
+                    <li>HTML</li>
+                    <div class="display">
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles spinner-grow spinner-grow-sm text-info"></div>
+                    </div>
+                    <hr>
+                    <li>CSS</li>
+                    <div class="display">
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles spinner-grow spinner-grow-sm text-info"></div>
+                        <div class="empty"></div>
+                        <div class="empty"></div>
+                        <div class="empty"></div>
+                    </div>
+                    <hr>
+                    <li>Java Script Basic</li>
+                    <div class="display">
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles spinner-grow spinner-grow-sm text-info"></div>
+                        <div class="empty"></div>
+                    </div>
+                    <hr>
+                    <li>Java Script Advanced</li>
+                    <div class="display">
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles spinner-grow spinner-grow-sm text-info"></div>
+                        <div class="empty"></div>
+                        <div class="empty"></div>
+                        <div class="empty"></div>
+                    </div>
+                    <hr>
+                    <li>C# Basic</li>
+                    <div class="display">
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles spinner-grow spinner-grow-sm text-info"></div>
+                        <div class="empty"></div>
+                    </div>
+                    <hr>
+                    <li>C# Advanced</li>
+                    <div class="display">
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles spinner-grow spinner-grow-sm text-info"></div>
+                        <div class="empty"></div>
+                    </div>
+                    <hr>
+                    <li>.NET MVC</li>
+                    <div class="display">
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles spinner-grow spinner-grow-sm text-info"></div>
+                        <div class="empty"></div>
+                        <div class="empty"></div>
+                    </div>
+                    <hr>
+                    <li>.NET RESTful API</li>
+                    <div class="display">
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles spinner-grow spinner-grow-sm text-info"></div>
+                        <div class="empty"></div>
+                        <div class="empty"></div>
+                        <div class="empty"></div>
+                    </div>
+                    <hr>
+                    <li>SQL Basic</li>
+                    <div class="display">
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles spinner-grow spinner-grow-sm text-info"></div>
+                        <div class="empty"></div>
+                        <div class="empty"></div>
+                        <div class="empty"></div>
+                    </div>
+                    <hr>
+                    <li>Practical .NET MVC</li>
+                    <div class="display">
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles spinner-grow spinner-grow-sm text-info"></div>
+                        <div class="empty"></div>
+                        <div class="empty"></div>
+                    </div>
+                    <hr>
+                    <li>Angular</li>
+                    <div class="display">
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles spinner-grow spinner-grow-sm text-info"></div>
+                        <div class="empty"></div>
+                        <div class="empty"></div>
+                        <div class="empty"></div>
+                    </div>
+                    <hr>
+                </ol>
+
+
+
+
+            </div>
+
+
+
+            <img id="image" [src]="diplomaImage" alt="diploma">
+
+        </div>
+        <br>
+
+
+        <div id="subjectFooter" class="container">
+            <br>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <a routerLink="/contact"> CONTACT ME</a>
+            <br>
+            <br>
+
+        </div>
+
+    </div>
+
+
+    <div id="languagesDiv" class="container" *ngIf="printLanguage">
+        <br>
+        <h3 id="languageTitle">Languages</h3>
+        <br>
+
+        <h6>As a Macedonian my native language is Macedonian but i can honestly say my second strongest language is
+            English (Speaking, Writing, Reading), and some minimal knowledge of German</h6>
+        <br>
+        <br>
+        <hr>
+
+        <p id="languages" class="titles">Languages: </p>
+
+        <p class="titles"><i class="fa fa-certificate" aria-hidden="true"></i> Certificates:</p>
+
+
+        <div class="container">
+
+            <div class="test">
+                <ul>
+                    <li>Macedonian</li>
+                    <div class="display">
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles spinner-grow spinner-grow-sm text-info"></div>
+                    </div>
+                    <hr>
+                    <li>English</li>
+                    <div class="display">
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles spinner-grow spinner-grow-sm text-info"></div>
+                    </div>
+                    <hr>
+                    <li>Serbian</li>
+                    <div class="display">
+                        <div class="circles"></div>
+                        <div class="circles"></div>
+                        <div class="circles spinner-grow spinner-grow-sm text-info"></div>
+                        <div class="empty"></div>
+                        <div class="empty"></div>
+                        <div class="empty"></div>
+                    </div>
+                    <hr>
+                    <li>German</li>
+                    <div class="display">
+                        <div class="circles spinner-grow spinner-grow-sm text-info"></div>
+                        <div class="empty"></div>
+                        <div class="empty"></div>
+                        <div class="empty"></div>
+                        <div class="empty"></div>
+                        <div class="empty"></div>
+                    </div>
+                    <hr>
+
+                </ul>
+
+
+
+
+            </div>
+
+
+
+
+            <br>
+
+            <div id="languageFooter" class="container">
+
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <a routerLink="/contact"> CONTACT ME</a>
+                <br>
+                <br>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="container" *ngIf="printHobby">
+        <br>
+
+        <h3 id="hobbyTitle">My Hobbies</h3>
+        <br>
+        <p>When i don't study i focus on some of my personal interests witch are reading and searching about AI, IOT
+            (Internet of Things), and some other interesting stuff. As for outdoors i like to travel a lot, hike, cycle,
+            paly basketball or go to the gym or simply go out with friends to cool off and have some fun</p>
+        <br>
+        <br>
+        <hr>
+        <p id="hobbies" class="titles">Hobbies: </p>
+
+        <p class="titles"><i class="fa fa-globe" aria-hidden="true"></i> Around the world Images:</p>
+
+        <div class="container">
+
+            <div class="test">
+                <ul>
+                    <li>Searching and Upgrating my programming skills</li>
+                    <hr>
+                    <li>Traveling</li>
+
+                    <hr>
+                    <li>Hiking</li>
+
+                    <hr>
+                    <li>Cycling</li>
+
+                    <hr>
+                    <li>Gym</li>
+
+                    <hr>
+
+                </ul>
+
+
+
+
+            </div>
+
+
+
+            <img id="image2" [src]="hobbiesImage" alt="hobbies">
+
+            <br>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <a routerLink="/contact"> CONTACT ME</a>
+            <br>
+            <br>
+
+
+        </div>
+
+    </div>
+
+
+</div>

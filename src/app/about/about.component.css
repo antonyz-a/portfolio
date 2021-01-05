@@ -1,0 +1,169 @@
+* {
+    background: #212529;
+     color: white;
+     text-align: center;
+     
+}
+
+
+
+.btn {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+hr {
+    background-color: purple;
+}
+
+
+
+#subject {
+    display: flex;
+    position: absolute;
+}
+
+#languages {
+    display: flex;
+    position: absolute;
+}
+
+#hobbies {
+    display: flex;
+    position: absolute;
+    
+}
+
+
+#hobbyTitle {
+    color: rgb(90, 164, 214);
+}
+
+#languageTitle {
+    color: rgb(90, 164, 214);
+
+}
+
+#workTitle {
+    color: rgb(90, 164, 214);
+
+}
+
+#educationTitle {
+    color: rgb(90, 164, 214);
+
+}
+
+
+
+#image {
+    width: 450px;
+    height: 300px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+    
+}
+
+#image2 {
+    width: 450px;
+    height: 350px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+    
+}
+
+.test {
+    position: absolute;
+    text-align: start;
+    
+}
+
+a {
+    color: rgb(90, 164, 214);
+}
+
+.titles {
+    text-decoration: underline;
+    
+}
+
+.card {
+    margin-right: 50px;
+}
+
+.spinner-grow {
+    
+    background-color: currentColor !important;
+   
+}
+
+.random {
+    position: absolute;
+}
+
+.circles {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #17a2b8 !important;
+    color: #17a2b8 !important;
+    border-color: #17a2b8 !important;
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+    margin-left: 3px;
+    
+}
+
+.empty {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    
+    border: solid 2px;
+    border-color: #17a2b8 !important;
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+    margin-left: 3px;
+}
+
+.display {
+    display: flex;
+    align-items: row;
+   
+    
+}
+
+
+
+#work-text {
+    text-decoration: underline;
+}
+
+#date {
+    text-align: start;
+}
+
+#desc {
+    word-spacing: 0.2rem;
+    color: whitesmoke;
+}
+
+#languagesDiv {
+    height: 800px;
+}
+
+#main {
+    height: 1300px;
+
+}
+
+#languageFooter {
+    margin-top: 400px;
+}
+
+#subjectFooter {
+    margin-top: 400px;
+
+}

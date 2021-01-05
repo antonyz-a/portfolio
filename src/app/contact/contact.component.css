@@ -1,0 +1,23 @@
+* {
+    background: #212529;
+    color: white;
+    
+}
+
+#header {
+    text-align: center;
+}
+
+hr {
+    background-color: purple;
+}
+
+#body {
+    text-align: start;
+    
+}
+
+.links {
+    color: rgb(90, 164, 214) !important;
+    
+}

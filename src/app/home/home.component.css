@@ -1,0 +1,55 @@
+* {
+    background: #212529;
+    color: white;
+    /* text-align: center; */
+}
+
+#header {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(90, 164, 214);
+}
+
+
+
+hr {
+    background-color: purple;
+}
+
+img {
+    width: 300px;
+    height: 400px;
+    border-radius: 60%;
+    position: relative;
+    text-align: end;
+    
+}
+
+#body {
+    text-align: start;
+    position: absolute;
+}
+
+#image {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+a {
+    
+    color: rgb(90, 164, 214);
+    
+}
+
+
+
+p {
+    text-decoration: underline;
+}
+
+#footer {
+    text-align: center;
+}
