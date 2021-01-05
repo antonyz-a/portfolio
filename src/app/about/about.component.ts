@@ -9,8 +9,8 @@ export class AboutComponent implements OnInit {
 
   constructor() { }
 
-  diplomaImage: string = "../../assets/images/diploma.jpg";
-  hobbiesImage: string = "../../assets/images/hobbies.jpg"
+  diplomaImage: string = "/portfolio/assets/images/diploma.jpg";
+  hobbiesImage: string = "/portfolio/assets/images/hobbies.jpg";
 
   printWork: boolean = false;
   printEducation: boolean = true;
