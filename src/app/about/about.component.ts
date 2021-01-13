@@ -11,6 +11,8 @@ export class AboutComponent implements OnInit {
 
   diplomaImage: string = "/portfolio/assets/images/diploma.jpg";
   hobbiesImage: string = "/portfolio/assets/images/hobbies.jpg";
+  officeImage: string = "/portfolio/assets/images/office.jpg";
+  germanImage: string = "/portfolio/assets/images/germanski.jpg";
 
   printWork: boolean = false;
   printEducation: boolean = true;

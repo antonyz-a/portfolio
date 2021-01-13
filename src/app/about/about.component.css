@@ -64,12 +64,26 @@ hr {
     
 }
 
+#image4 {
+    width: 450px;
+    height: 300px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+}
+
 #image2 {
     width: 450px;
     height: 350px;
     margin-left: 500px;
     margin-bottom: 100px;
     
+}
+
+#image3 {
+    width: 320px;
+    height: 460px;
+    margin-left: 500px;
+    margin-bottom: 100px;
 }
 
 .test {
@@ -151,7 +165,7 @@ a {
 }
 
 #languagesDiv {
-    height: 800px;
+    height: 1000px;
 }
 
 #main {
@@ -160,10 +174,10 @@ a {
 }
 
 #languageFooter {
-    margin-top: 400px;
+    margin-top: 50px;
 }
 
 #subjectFooter {
-    margin-top: 400px;
+    margin-top: 100px;
 
 }
